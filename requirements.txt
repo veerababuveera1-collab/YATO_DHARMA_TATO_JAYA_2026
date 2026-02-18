@@ -1,0 +1,24 @@
+# --- Core Framework ---
+# High-performance API gateway for the tactical node
+Flask==3.0.2
+Flask-Cors==4.0.0
+
+# --- Communication & Local AI ---
+# Used for air-gapped interfacing with the local Ollama/Llama-3 engine
+requests==2.31.0
+urllib3==2.2.1
+
+# --- Quantum-Resistant & Tactical Security ---
+# Provides SHA3 (Keccak) and HMAC-SHA512 for Zero-Trust tokens
+pycryptodome==3.20.0
+cryptography==42.0.5
+
+# --- System & Performance Monitoring ---
+# Used to monitor hardware reflex and memory-mapped I/O simulation
+psutil==5.9.8
+numpy==1.26.4
+
+# --- Deployment (Optional/Production) ---
+# For running the system in a multi-worker, high-speed Linux environment
+gunicorn==21.2.0
+python-dotenv==1.0.1
